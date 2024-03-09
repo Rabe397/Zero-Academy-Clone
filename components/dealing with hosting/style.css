@@ -1,0 +1,28 @@
+/* main-side-section */
+.main-sec-container{
+    width: 100%;
+}
+.top-container.flex-full-ngap{
+    justify-content: unset;
+    align-items: flex-start;
+    gap: 30px;
+}
+.main-side-box .top-container img{
+    width: 200px;
+    height: 120px;
+}
+.watch{
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+}
+/* media-query */
+@media(max-width: 768px){
+    .top-container.flex-full-ngap{
+        flex-direction: column;
+    }
+    .main-side-box .top-container img{
+        width: 100%;
+        height: 200px;
+    }
+}

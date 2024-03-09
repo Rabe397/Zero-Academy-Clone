@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> قائمة اللقاءات </title>
+    <!-- font-awesome-cdn-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- general-css-file -->
+    <link rel="stylesheet" href="../general.css">  
+    <!-- specific-css-file -->
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <!-- Header-section -->
+    <header class="flex-full main-padd header-bar">
+        <a href="main.html"> 
+            <i class="fas fa-graduation-cap header-logo light"></i>
+            <span class="light logo"> أكاديمية الزيرو </span>
+        </a>
+        <nav class="flex-full nav-lists">
+            <div class="nav-item light flex-full">
+                <span > تعلم الان </span>
+                <i class="fas fa-chevron-down"></i>
+                <div class="drop flex-full">
+                    <a href="../learning articles/learningArticlearb.html">مواضيع الدراسة</a>
+                    <a href="../learning courses/arb.html"> الدورات التدريبية </a>
+                    <a href="../learning cources assignments/arb.html"> تمارين الدورات</a>
+                    <a href="../example-application-explaniation/arb.html"> أمثلة وشروحات </a>
+                    <a href="../programming challenges/arb.html"> تحديات برمجية </a>
+                    <a href="../developer tools/arb.html"> ادوات المطورين </a>
+                    <a href="../problem sites/arb.html"> مواقع حل المساىل البرمجية </a>
+                </div>
+            </div>
+            <div class="nav-item light flex-full" >
+                <span> دليل التعليم </span>
+                <i class="fas fa-chevron-down"></i>
+                <div class="drop flex-full">
+                    <a href="../front end roadmap/arb.html">  خارطة طريق مطور الواجهة الامامية</a>                    
+                </div>
+            </div>
+            <div class="nav-item light flex-full">
+                <span> خطة الدراسة </span>
+                <i class="fas fa-chevron-down"></i>
+                <div class="drop flex-full">
+                    <a href="">خطة  <bdi>Html</bdi> </a>
+                    <a href="">  خطة <bdi>css</bdi> </a>
+                    <a href="">  خطة <bdi>JavaScript</bdi> </a>
+                    <a href="">  خطة <bdi>TypeScript</bdi> </a>
+                    <a href="">  خطة <bdi>Sass</bdi> </a>
+                </div>
+            </div>    
+            <div class="nav-item light flex-full">
+                <span>من القناة</span>
+                <i class="fas fa-chevron-down"></i>
+                <div class="drop drop-c flex-full">
+                    <a href="../important chanel video/arb.html"> أهم الحلقات </a>
+                    <a href="../alzero week/arb.html"> أسبوع الزيرو </a>
+                    <a href="../jorney with life/arb.html"> رحلتي مع الحياة </a>
+                    <a href="../dealing with hosting/arb.html"> الاستضافة </a>
+                    <a href="../problems and solutions list/arb.html"> اهم المسائل و الحلول </a>
+                </div>
+            </div>    
+            <div class="nav-item light flex-full">
+                <span> منوع </span>
+                <i class="fas fa-chevron-down"></i>
+                <div class="drop drop-c flex-full">
+                    <a href=""> ما الجديد </a>
+                    <a href="../question and answer/arb.html"> سوال و جواب </a>
+                    <a href="../alzero-advices/arb.html"> نصائح الزيرو </a>
+                    <a href="../book snippetes/arb.html"> معلومات من الكتب </a>
+                    <a href="../meeting lists/arb.html">  قائمة اللقاءات </a>
+                </div>
+            </div> 
+            <div class="nav-item light flex-full" >
+                <a href="../../index.html" title="same-page-in-English" class="lang"> الانجليزيه </a> 
+            </div>     
+        </nav>
+        <div class="mob">
+            <i class="fa fa-bars light" onclick="showNav()"></i>
+        </div> 
+    </header>
+    <!-- main-section -->
+    <main class="common-main flex-full">
+        <div class="common-main-container light">
+            <h1> قائمة اللقاءات </h1>
+            <p> اللقاءات التي تم تسجبلها وهي موجودة على القناة </p>
+        </div>
+    </main>
+    <!-- big-section -->
+    <section class="big-sec">   
+        <div class="meeting-container">
+            <div class="meeting-box">
+                <img src="../../images/meeting list/famous-programmer.jpg" alt="Youtube-video-image" />
+                <div class="meeting-info">
+                    <p class="meeting-name"> أشهر مبرمج عربي لم يدرس البرمجة | أسامه الزيرو </p>
+                    <hr/>
+                    <div class="meeting-detail flex-full-ngap">
+                      <a href="" class="watch"> شاهد الفيديو </a>
+                      <span class="meeting-duration"> 1:09:11 </span>
+                    </div>
+                </div>    
+            </div>
+            <div class="meeting-box">
+                <img src="../../images/meeting list/maxresdefault.jpg" alt="Youtube-video-image" />
+                <div class="meeting-info">
+                    <p class="meeting-name">مع أسامه الزيرو | صاحب أكبر و افضل  قناة تعليمية    </p>
+                    <hr/>
+                    <div class="meeting-detail flex-full-ngap">
+                      <a href="" class="watch"> شاهد الفيديو </a>
+                      <span class="meeting-duration"> 2:48:14 </span>
+                    </div>
+                </div>    
+            </div>
+            <div class="meeting-box">
+                <img src="../../images/meeting list/maxresdefault (1).jpg" alt="Youtube-video-image" />
+                <div class="meeting-info">
+                    <p class="meeting-name"> بودكاست مع اسامه الزيرو | الحياة والبرمجة </p>
+                    <hr/>
+                    <div class="meeting-detail flex-full-ngap">
+                      <a href="" class="watch"> شاهد الفيديو </a>
+                      <span class="meeting-duration"> 1:24:11 </span>
+                    </div>
+                </div>    
+            </div>
+            <div class="meeting-box">
+                <img src="../../images/meeting list/maxresdefault (2).jpg" alt="Youtube-video-image" />
+                <div class="meeting-info">
+                    <p class="meeting-name">  الحياة والبرمجة و صناعة المحتوى واكثر</p>
+                    <hr/>
+                    <div class="meeting-detail flex-full-ngap">
+                      <a href="" class="watch"> شاهد الفيديو </a>
+                      <span class="meeting-duration"> 3:07:52 </span>
+                    </div>
+                </div>    
+            </div>
+            <div class="meeting-box">
+                <img src="../../images/meeting list/maxresdefault (3).jpg" alt="Youtube-video-image" />
+                <div class="meeting-info">
+                    <p class="meeting-name"> رحلة المليون </p>
+                    <hr/>
+                    <div class="meeting-detail flex-full-ngap">
+                      <a href="" class="watch"> شاهد الفيديو </a>
+                      <span class="meeting-duration"> 1:40:36 </span>
+                    </div>
+                </div>    
+            </div>
+        </div>      
+    </section>
+    <!-- footer -->
+    <footer class="flex-full main-padd">
+        <div class="copy-right">
+            <p> Made with <i class="fas fa-heart"></i> by Rabee Khalifa &copy;2023</p>
+        </div>
+        <div class="icons flex-full">
+            <a href=""> <i class="fab fa-facebook-f fa-lg"></i> </a>
+            <a href=""> <i class="fab fa-linkedin-in fa-lg"></i> </a>
+            <a href=""> <i class="fab fa-github-alt fa-lg"></i> </a>
+            <a href=""> <i class="fab fa-whatsapp fa-lg"></i> </a>
+        </div>
+    
+    </footer>  
+    <!-- main-js-file -->
+    <script src="../main/main.js"></script>
+</body>
+</html>

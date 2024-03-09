@@ -1,0 +1,50 @@
+/* big-section */
+.big-sec{
+    padding: 30px 23%;
+}
+.meeting-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+.meeting-box{
+    width: 99%;
+    box-shadow: 1px 1px 1px 1.5px rgb(177, 175, 175);
+}
+.meeting-box img{
+    width: 100%;
+    height: 200px;
+}
+.meeting-info hr{
+    margin-top: 15px;
+    background-color: rgb(235, 231, 231)
+}
+.meeting-name{
+    line-height: 25px;
+}
+.meeting-detail , .meeting-name{
+    padding: 10px;
+} 
+.watch{
+    color: green;
+}
+.meeting-duration{
+    padding: 3px;
+    background-color: rgb(233, 228, 228);
+}
+/* media-query */
+@media(max-width: 800px){
+    .meeting-container{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .meeting-box{
+        width: 100%;
+    }
+}
+@media(max-width: 380px){
+    .meeting-detail.flex-full-ngap{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}

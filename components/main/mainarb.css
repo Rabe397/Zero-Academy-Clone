@@ -1,0 +1,27 @@
+/* header */
+.drop-c{
+    left: 0px;
+}
+
+/* main */
+.main-info p{
+    width: 70%;
+    margin: auto;
+    line-height: 1.2;
+}
+.main-search button{
+    right: auto;
+    left : 5px
+}
+/* new-explanation-sec */
+.new-exp-box{
+    border-right-color: var(--main-color);
+    border-left-color: rgb(220 , 220 ,220);
+}
+
+/* media-query */
+@media(max-width: 1024px){
+    .drop-c{
+        left: auto; 
+    }
+}
