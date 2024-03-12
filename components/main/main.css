@@ -254,6 +254,21 @@ section a:hover{
     .latest-app .same-box img, .latest-art .same-box img , .random-art .same-box img{
         width: 100%;  
     }
+     /* footer-section */
+    footer.main-padd{
+        padding-top: 15px;
+    }
+    footer.flex-full{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 20px 0;
+    }
+    footer .copy-right p{
+        font-size: 80%;
+    }
+    .icons a {
+        padding: 6px;
+    }
 }
 @media(max-width: 425px){
     /* learning-path-section */
@@ -315,18 +330,7 @@ section a:hover{
         width: 95%;
         height: 140px;
     }
-    /* footer-section */
-    footer.flex-full{
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 20px 0;
-    }
-    footer .copy-right p{
-        font-size: 60%;
-    }
-    .icons a {
-        padding: 6px;
-    }  
+     
 }
 @media(max-width: 220px ){
     

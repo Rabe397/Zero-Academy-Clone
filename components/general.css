@@ -159,34 +159,41 @@ nav a{
 /* footer */
 footer{
     background-color: black;
-    height: 70px;
     color: white;
 }
-
+footer.main-padd{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .copy-right i{
     color: var(--main-color);
 }
 
 .icons a{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 9px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
     color: rgba(243, 237, 237 , 0.7);
-    background-color: rgb(128, 128, 122);
+    background-color: white;
     margin-left: 10px;
 }
 .icons a:hover{
     background-color: transparent;
 }
-.icons a:nth-child(1):hover{
+.icons a:nth-child(1){
     color: rgb(41, 113, 196);
 }
-.icons a:nth-child(2):hover{
+.icons a:nth-child(2){
     color: rgb(89, 126, 182);
 }
-.icons a:nth-child(3):hover{
-    color: rgb(252, 252, 255);
+.icons a:nth-child(3){
+    color: black;
 }
-.icons a:nth-child(4):hover{
+.icons a:nth-child(4){
     color: rgb(50, 211, 90);
 }
 
@@ -254,6 +261,9 @@ footer{
 }
 @media(max-width: 320px){
     /* footer */
+    footer.main-padd{
+        padding: 15px 2% 2px 2%;
+    }
     .icons a{
         padding: 3px;
         margin-left: 1px;
@@ -262,13 +272,17 @@ footer{
         font-size: 0.5rem;
     } 
 }
-@media(max-width: 220px){
+@media(max-width: 260px){
+    /* header */
+    .header-logo , .logo{
+        font-size: 1rem;
+    }
     /* footer */
     .icons a{
         padding: 3px;
         margin-left: 1px;
     }
     footer p{
-        font-size: 0.38rem;
+        font-size: 0.3rem;
     }
 }
