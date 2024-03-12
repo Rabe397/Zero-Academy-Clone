@@ -17,7 +17,7 @@
     height: 120px;
 }
 .watch{
-    padding: 10px;
+    padding: 5px;
     background-color: var(--main-color);
     color: white;
 }
@@ -49,5 +49,19 @@
     .main-side-box .top-container img{
         width: 100%;
         height: 200px;
+    }
+}
+@media(max-width: 500px){
+    .main-sec-container{
+        width: 90%;
+    }
+}
+@media(max-width: 300px){
+    .main-sec-container{
+        width: 100%;
+    }
+    .watch-parent.flex-full-ngap{
+        flex-direction: column;
+        gap: 10px;
     }
 }

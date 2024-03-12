@@ -147,8 +147,7 @@ section a:hover{
 }
 .new-box{
     background-color: white;
-    padding: 10px 10px 0 15px;
-    height: 100px;
+    padding: 10px 10px 10px 15px;
     border: 1px solid rgb(220 , 220 , 220);
     width: 300px;
     margin-bottom: 20px;
@@ -241,7 +240,6 @@ section a:hover{
     }
     .new-box{
      width: 70%;
-     height: 110px;
      margin-bottom: 20px;
     }
     
@@ -254,21 +252,7 @@ section a:hover{
     .latest-app .same-box img, .latest-art .same-box img , .random-art .same-box img{
         width: 100%;  
     }
-     /* footer-section */
-    footer.main-padd{
-        padding-top: 15px;
-    }
-    footer.flex-full{
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 20px 0;
-    }
-    footer .copy-right p{
-        font-size: 80%;
-    }
-    .icons a {
-        padding: 6px;
-    }
+    
 }
 @media(max-width: 425px){
     /* learning-path-section */
@@ -305,7 +289,6 @@ section a:hover{
     /* news-section */
     .new-box{
         width: 90%;
-        height: 110px;
         margin-bottom: 20px;
     }
     /* news-explanations */
@@ -328,7 +311,6 @@ section a:hover{
     /* news-section */
     .new-box{
         width: 95%;
-        height: 140px;
     }
      
 }
@@ -353,6 +335,5 @@ section a:hover{
      /* news-section */
      .new-box{
         width: 100%;
-        height: 170px;
     } 
 }

@@ -60,7 +60,7 @@ sitesData.map((site)=>{
         <div class="sites-box">
            <div class="upper flex-full">
               <div class="upper-first">
-                <a href=""> ${site.title} </a>
+                <a> ${site.title} </a>
                 <p> ${site.level} Level </p>
               </div>
               <div class="img-container">

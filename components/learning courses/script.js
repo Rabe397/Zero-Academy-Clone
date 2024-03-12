@@ -201,7 +201,7 @@ coursesData.map((course)=>{
         <div class="courses-box">
            <div class="upper flex-full">
               <div class="upper-first">
-                <a href=""> ${course.title} </a>
+                <a> ${course.title} </a>
                 <p> ${course.year} </p>
               </div>
               <div class="img-container">

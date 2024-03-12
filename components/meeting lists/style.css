@@ -1,6 +1,6 @@
 /* big-section */
 .big-sec{
-    padding: 30px 23%;
+    padding: 30px 18%;
 }
 .meeting-container{
     display: grid;
@@ -42,6 +42,10 @@
     }
 }
 @media(max-width: 380px){
+    /* big-section */
+    .big-sec{
+      padding: 30px 10%;
+    }
     .meeting-detail.flex-full-ngap{
         flex-direction: column;
         align-items: flex-start;

@@ -103,7 +103,7 @@ const pagination = ()=>{
             if (index < 5 ){
                 mainSide.innerHTML +=`
                    <div class="main-side-box">
-                      <a href=""> ${article.anchor} </a>
+                      <a> ${article.anchor} </a>
                       <p> ${article.p} </p>
                       <hr>
                       <div class="book-info flex-full">
@@ -130,7 +130,7 @@ const pagination = ()=>{
             if (index > 4 && index < 11){
                 mainSide.innerHTML +=`
                 <div class="main-side-box">
-                   <a href=""> ${article.anchor} </a>
+                   <a> ${article.anchor} </a>
                    <p> ${article.p} </p>
                    <hr>
                    <div class="book-info flex-full">
@@ -172,7 +172,7 @@ nextBtn.onclick= ()=>{
         if (index > 4 && index < 11){
         mainSide.innerHTML +=`
         <div class="main-side-box">
-           <a href=""> ${article.anchor} </a>
+           <a> ${article.anchor} </a>
            <p> ${article.p} </p>
            <hr>
            <div class="book-info flex-full">
@@ -212,7 +212,7 @@ prevBtn.onclick= ()=>{
         if (index < 5  ){
         mainSide.innerHTML +=`
         <div class="main-side-box">
-           <a href=""> ${article.anchor} </a>
+           <a> ${article.anchor} </a>
            <p> ${article.p} </p>
            <hr>
            <div class="book-info flex-full">

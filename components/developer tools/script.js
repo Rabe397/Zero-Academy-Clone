@@ -78,7 +78,7 @@ toolsData.map((tool)=>{
               <img src="${tool.img}" alt="${tool.title}">
             </div>
             <div>
-              <a href=""> ${tool.title} </a> 
+              <a> ${tool.title} </a> 
             </div>
             <hr>
             <span> <bdi>${tool.items} Items  </bdi> </span>

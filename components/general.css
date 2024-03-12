@@ -12,6 +12,7 @@
 /* common-styles */
 a{
     color: black;
+    cursor: pointer;
 }
 .flex-full{
     display: flex;
@@ -52,8 +53,12 @@ a{
     justify-content: center;
     
 }
+.common-main h1{
+    padding: 0 9px;
+}
 .common-main p{
     margin-top: 20px;
+    padding: 0 1rem;
 }
 
 /* header-section */
@@ -196,7 +201,9 @@ footer.main-padd{
 .icons a:nth-child(4){
     color: rgb(50, 211, 90);
 }
-
+.icons a:nth-child(3):hover{
+    background-color: rgb(255, 255, 255);
+}
 /* media-query */
 @media(max-width: 1024px){
     /* header */
@@ -208,12 +215,13 @@ footer.main-padd{
     .nav-lists{
         flex-direction: column;
         background-color: rgb(49, 47, 47);
-        height: 50vh;
+        height: 60vh;
+        overflow-y: auto;
         width: 100%;
         position: fixed;
         top: 70px;
         right: 0;
-        padding: 20px 10% 20px 10%;
+        padding: 10px 10% 10px 10%;
         display: none;
         
     }
@@ -225,7 +233,7 @@ footer.main-padd{
     nav.flex-full{
         justify-content: unset;
         align-items: flex-start;
-        gap: 20px;
+        gap: 10px;
     }
     .drop{
         top: 30px;
@@ -240,14 +248,28 @@ footer.main-padd{
     
 }
 @media(max-width: 768px){
-    /* footer */
-    .icons a{
+     /* footer-section */
+     footer.main-padd{
+        padding-top: 15px;
+    }
+    footer.flex-full{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 20px 0;
+    }
+    footer .copy-right p{
+        font-size: 80%;
+    }
+    .icons a {
+        padding: 6px;
+    }
+    /* .icons a{
         padding: 6px;
         margin-left: 2px;
     }
     footer p{
         font-size: 0.8rem;
-    }
+    } */
 }
 @media(max-width: 425px){
     /* footer */
@@ -260,6 +282,10 @@ footer.main-padd{
     }
 }
 @media(max-width: 320px){
+    /* main */
+    .common-main h1{
+        font-size: 1.4rem;
+    }
     /* footer */
     footer.main-padd{
         padding: 15px 2% 2px 2%;
@@ -276,6 +302,10 @@ footer.main-padd{
     /* header */
     .header-logo , .logo{
         font-size: 1rem;
+    }
+    /* main */
+    .common-main h1 {
+        font-size: 1.1rem;
     }
     /* footer */
     .icons a{
