@@ -1,7 +1,7 @@
 /*  challenges-section  */
 .chall-sec{
     background-color:rgb(235, 235, 235);
-    padding: 30px 10%;
+    padding: 60px 10%;
 }
 .chall-box{
     background-color: white;
@@ -12,7 +12,7 @@
 }
 .chall-box .img-container{
     width: 200px;
-    height: 200px;
+    height: 300px;
     margin: auto;
 }
 .chall-box .img-container img{
@@ -32,6 +32,16 @@
     text-align: start;
 }
 /* media-query */
+@media(min-height: 830px) and 
+(min-width: 769px){
+    .chall-container.flex-full{
+        flex-direction: column;
+        gap: 50px 20px;
+    }
+    .chall-box{
+        width: 100%;
+    }
+}
 @media(max-width: 768px){
     .chall-container.flex-full{
         flex-direction: column;

@@ -83,7 +83,7 @@ const pagination = ()=>{
                     <div class="main-side-box">
                        <img src="${article.img}" alt="${article.anchor}">
                        <hr>
-                       <a href=""> ${article.anchor}</a>
+                       <a> ${article.anchor}</a>
                        <p>${article.p}</p>
                        <hr>
                        <div class="icons flex-full">
@@ -107,7 +107,7 @@ const pagination = ()=>{
                    <div class="main-side-box">
                        <img src="${article.img}" alt="${article.anchor}">
                        <hr>
-                       <a href=""> ${article.anchor}</a>
+                       <a> ${article.anchor}</a>
                        <p>${article.p}</p>
                        <hr>
                        <div class="icons flex-full">
@@ -145,7 +145,7 @@ nextBtn.onclick= ()=>{
                    <div class="main-side-box">
                        <img src="${article.img}" alt="${article.anchor}">
                        <hr>
-                       <a href=""> ${article.anchor}</a>
+                       <a> ${article.anchor}</a>
                        <p>${article.p}</p>
                        <hr>
                        <div class="icons flex-full">
@@ -181,7 +181,7 @@ prevBtn.onclick= ()=>{
                    <div class="main-side-box">
                        <img src="${article.img}" alt="${article.anchor}">
                        <hr>
-                       <a href=""> ${article.anchor}</a>
+                       <a> ${article.anchor}</a>
                        <p>${article.p}</p>
                        <hr>
                        <div class="icons flex-full">

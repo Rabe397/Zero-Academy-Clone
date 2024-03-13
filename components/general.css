@@ -86,10 +86,7 @@ nav a{
     gap: 4px;
     cursor: pointer;
     position: relative; 
-    width:fit-content;
-    height: 100%;
-    
-    
+    width:fit-content;  
 }
 
 .nav-item span{
@@ -104,20 +101,17 @@ nav a{
 }
 @keyframes fade {
     0%{
-        opacity: 0;
-        
-       
+        opacity: 0;  
     }
     100%{
-        opacity: 100%;
-        
-        
+        opacity: 100%;   
     }
 }    
 .drop{
     position: absolute;
-    top: 70px;
-    width: 300px;
+    top: 30px;
+    left: 0;
+    width: 200px;
     padding: 0px;
     align-items: flex-start;
     background-color: rgb(53, 52, 52);
@@ -130,7 +124,10 @@ nav a{
     animation-timing-function: ease-in-out;
 }
 .drop-mix{
-    right: 0px;
+    left: -20px;
+}
+.drop-c{
+    right: 0;
 }
 .drop a{
     padding:10px ;
@@ -138,14 +135,9 @@ nav a{
     transition: 0.3s;
     display: block;
 }
-
 .drop a:hover{
     background-color: rgba(138, 130, 130, 0.5);
     padding-left: 20px;
-}
-
-.nav-item:hover .drop{
-    display: flex;
 }
 .mob{
     display: none;
@@ -205,6 +197,15 @@ footer.main-padd{
     background-color: rgb(255, 255, 255);
 }
 /* media-query */
+@media(min-height: 800px){
+    /* header */
+    .nav-lists{
+        height: 60vh;
+    }
+    .nav-lists.flex-full{
+        gap: 25px;
+    }
+}
 @media(max-width: 1024px){
     /* header */
     header{
@@ -214,8 +215,8 @@ footer.main-padd{
     }
     .nav-lists{
         flex-direction: column;
-        background-color: rgb(49, 47, 47);
-        height: 60vh;
+        background-color: rgb(115, 108, 108);
+        height: 80vh;
         overflow-y: auto;
         width: 100%;
         position: fixed;
@@ -224,6 +225,10 @@ footer.main-padd{
         padding: 10px 10% 10px 10%;
         display: none;
         
+    }
+    .nav-lists.flex-full{
+        justify-content: unset;
+        gap: 25px;
     }
     .nav-lists.active{
         display: flex;
@@ -284,7 +289,7 @@ footer.main-padd{
 @media(max-width: 320px){
     /* main */
     .common-main h1{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     /* footer */
     footer.main-padd{
@@ -303,6 +308,9 @@ footer.main-padd{
     .header-logo , .logo{
         font-size: 1rem;
     }
+    .nav-lists.flex-full{
+        gap: 10px;
+    }
     /* main */
     .common-main h1 {
         font-size: 1.1rem;
@@ -314,5 +322,14 @@ footer.main-padd{
     }
     footer p{
         font-size: 0.3rem;
+    }
+}
+@media(min-height: 800px){
+    /* header */
+    .nav-lists{
+        height: 60vh;
+    }
+    .nav-lists.flex-full{
+        gap: 25px;
     }
 }
